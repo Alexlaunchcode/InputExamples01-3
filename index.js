@@ -21,6 +21,7 @@ let num1 = parseInt(x);
 
 astronautCount = num1;
  crewMassKg = astronautCount * averageAstronautMassKg;
+ totalMassKg = crewMassKg + fuelMassKg + shuttleMassKg;
 
 
 console.log("-------------------------------------");
